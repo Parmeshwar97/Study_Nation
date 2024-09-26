@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0F172A;
+    color: white;
+    overflow: hidden;
+}
+input{
+    background-color: #182441;
+    padding: .5rem;
+    border-radius: 5px;
+    width: 100%;
+}
+.active{
+    color: dodgerblue;
+    font-size: large;
+}
